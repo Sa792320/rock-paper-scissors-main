@@ -21,5 +21,4 @@ A modern Rock Paper Scissors game with a sleek UI built using Python and Pygame.
 - The winner will be displayed on the screen
 - Score is tracked throughout the game
 - Press ESC to quit the game
-
-created by @prashant6743
+  

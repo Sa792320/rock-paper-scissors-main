@@ -133,7 +133,7 @@ class RockPaperScissorsGame:
         
         rock_button = tk.Button(
             rock_frame,
-            text="✊",
+            text="\u270a",
             font=("Arial", 60),
             bg=self.bg_color,
             fg=self.text_color,
@@ -148,7 +148,7 @@ class RockPaperScissorsGame:
         
         paper_button = tk.Button(
             paper_frame,
-            text="✋",
+            text="\u270b",
             font=("Arial", 60),
             bg=self.bg_color,
             fg=self.text_color,
@@ -163,7 +163,7 @@ class RockPaperScissorsGame:
         
         scissors_button = tk.Button(
             scissors_frame,
-            text="✌️",
+            text="\u270c\ufe0f",
             font=("Arial", 60),
             bg=self.bg_color,
             fg=self.text_color,
@@ -217,11 +217,11 @@ class RockPaperScissorsGame:
         
     def choice_to_emoji(self, choice):
         if choice == "rock":
-            return "✊"
+            return "\u270a"
         elif choice == "paper":
-            return "✋"
+            return "\u270b"
         else:  # scissors
-            return "✌️"
+            return "\u270c\ufe0f"
         
 def main():
     root = tk.Tk()
